@@ -8,9 +8,13 @@ Writing assistance: Composer 2.5, Moonshot Kimi 2.5, Grok Build.
 
 ## Papers
 
-| Title | Date |
-|-------|------|
-| [Optimal Local LLM Reasoning for 24×7 Transpilation Workloads](papers/optimal-local-llm-reasoning-24x7.md) | June 2026 |
+Each paper is published at a canonical URL: `https://avinashpeyyety.github.io/white-papers/<slug>/`
+
+| Title | Slug | Date |
+|-------|------|------|
+| [Optimal Local LLM Reasoning for 24×7 Transpilation Workloads](https://avinashpeyyety.github.io/white-papers/optimal-local-llm-reasoning-24x7/) | `optimal-local-llm-reasoning-24x7` | June 2026 |
+
+Legacy paths under `/papers/` redirect to the canonical slug URL.
 
 ## Local development
 

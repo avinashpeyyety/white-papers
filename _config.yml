@@ -8,6 +8,16 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+collections:
+  papers:
+    output: true
+    permalink: /:name/
+defaults:
+  - scope:
+      path: ""
+      type: papers
+    values:
+      layout: paper
 exclude:
   - Gemfile
   - README.md

@@ -20,12 +20,15 @@
     <article class="paper">
       <header class="paper-header">
         <h1>{{ page.title }}</h1>
-        {% if page.author or page.date %}
+        {% if page.author or page.date or page.contributors %}
         <p class="paper-meta">
           {% if page.author %}<span class="author">{{ page.author }}</span>{% endif %}
           {% if page.author and page.date %} · {% endif %}
           {% if page.date %}<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %Y" }}</time>{% endif %}
         </p>
+        {% if page.contributors %}
+        <p class="paper-contributors">Writing assistance: {{ page.contributors }}</p>
+        {% endif %}
         {% endif %}
       </header>
       <div class="paper-content">
@@ -40,6 +43,7 @@
   <footer class="site-footer">
     <div class="container">
       <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.</p>
+      <p class="footer-credits">Writing assistance: Composer 2.5, Moonshot Kimi 2.5, Grok Build</p>
     </div>
   </footer>
 </body>

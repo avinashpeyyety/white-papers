@@ -10,6 +10,8 @@ permalink: /
 
 Technical research and architecture guides by **Avinash Peyyety**.
 
+<p class="site-credits">Writing assistance: Composer 2.5, Moonshot Kimi 2.5, Grok Build</p>
+
 <ul class="paper-list">
   <li>
     <a href="{{ '/papers/optimal-local-llm-reasoning-24x7/' | relative_url }}">

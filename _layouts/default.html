@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+      <p class="site-description">{{ site.description }}</p>
+    </div>
+  </header>
+
+  <main class="container">
+    {% if page.title and page.url != '/' %}
+    <article class="paper">
+      <header class="paper-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.author or page.date %}
+        <p class="paper-meta">
+          {% if page.author %}<span class="author">{{ page.author }}</span>{% endif %}
+          {% if page.author and page.date %} · {% endif %}
+          {% if page.date %}<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %Y" }}</time>{% endif %}
+        </p>
+        {% endif %}
+      </header>
+      <div class="paper-content">
+        {{ content }}
+      </div>
+    </article>
+    {% else %}
+    {{ content }}
+    {% endif %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

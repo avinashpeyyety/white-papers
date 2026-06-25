@@ -1,0 +1,14 @@
+title: Avinash Peyyety — White Papers
+description: Technical white papers on LLM infrastructure, transpilation, and GPU operations.
+baseurl: "/white-papers"
+url: "https://avinashpeyyety.github.io"
+author: Avinash Peyyety
+theme: null
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+exclude:
+  - Gemfile
+  - README.md
+  - .github

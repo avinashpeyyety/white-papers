@@ -12,9 +12,12 @@ Each paper is published at a canonical URL: `https://avinashpeyyety.github.io/wh
 
 | Title | Slug | Date |
 |-------|------|------|
+| [Settlement Tape, Not Anonymous SoR](https://avinashpeyyety.github.io/white-papers/settlement-tape-warrant-gated-identity/) | `settlement-tape-warrant-gated-identity` | September 2026 |
 | [Optimal Local LLM Reasoning for 24×7 Transpilation Workloads](https://avinashpeyyety.github.io/white-papers/optimal-local-llm-reasoning-24x7/) | `optimal-local-llm-reasoning-24x7` | June 2026 |
 
 Legacy paths under `/papers/` redirect to the canonical slug URL.
+
+Paper bodies live in `_papers/` (Jekyll collection). Redirect stubs live in `papers/`.
 
 ## Local development
 

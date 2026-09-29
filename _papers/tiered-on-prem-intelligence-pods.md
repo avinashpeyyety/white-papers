@@ -71,7 +71,7 @@ Every tier uses the same unit: a standard 8-GPU server (DGX or OEM HGX class). S
 
 A model replica must hold all of its weights in GPU memory, plus room for the key-value (KV) cache that grows with context length and concurrent sessions.
 
-$$ \text{weight memory} \approx \text{total parameters} \times \text{bytes per parameter} $$
+> **Weight memory ≈ total parameters × bytes per parameter**
 
 At 8-bit precision that is about 1 byte per parameter; at 4-bit, about 0.5. **Total** parameters count, not active ones. MoE sparsity makes each token cheaper to compute, but every expert must be resident.
 
@@ -85,7 +85,7 @@ GPU memory figures are approximate public specifications; KV headroom is extra. 
 
 Then size the fleet:
 
-$$ \text{GPUs} \approx \left\lceil \frac{\text{concurrent sessions}}{\text{sessions per replica}} \right\rceil \times \text{GPUs per replica} + \text{spare} $$
+> **GPUs ≈ ⌈concurrent sessions ÷ sessions per replica⌉ × GPUs per replica + spare**
 
 where *spare* covers embedders, verifiers and high availability.
 

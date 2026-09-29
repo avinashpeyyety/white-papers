@@ -12,6 +12,7 @@ Each paper is published at a canonical URL: `https://avinashpeyyety.github.io/wh
 
 | Title | Slug | Date |
 |-------|------|------|
+| [Tiered On-Premises Intelligence Pods: Open Models Next to Enterprise Data](https://avinashpeyyety.github.io/white-papers/tiered-on-prem-intelligence-pods/) | `tiered-on-prem-intelligence-pods` | September 2026 |
 | [From Workbench to Factory: Agent Harnesses and a Persistent Agent Platform](https://avinashpeyyety.github.io/white-papers/agent-harnesses-persistent-platform/) | `agent-harnesses-persistent-platform` | September 2026 |
 | [Public Tape, Not System of Record](https://avinashpeyyety.github.io/white-papers/settlement-tape-warrant-gated-identity/) | `settlement-tape-warrant-gated-identity` | September 2026 |
 | [Optimal Local LLM Reasoning for 24×7 Transpilation Workloads](https://avinashpeyyety.github.io/white-papers/optimal-local-llm-reasoning-24x7/) | `optimal-local-llm-reasoning-24x7` | June 2026 |

@@ -1,5 +1,5 @@
 ---
-title: "Beyond the IDE: Agent Harnesses and a Persistent Agent Platform"
+title: "From Workbench to Factory: Agent Harnesses and a Persistent Agent Platform"
 slug: agent-harnesses-persistent-platform
 date: 2026-09-29
 author: Avinash Peyyety

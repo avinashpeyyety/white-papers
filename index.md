@@ -10,7 +10,7 @@ permalink: /
 
 Technical research and architecture guides by **Avinash Peyyety**.
 
-<p class="site-credits">Writing assistance: Composer 2.5, Moonshot Kimi 2.5, Grok Build</p>
+<p class="site-credits">Writing assistance: SpaceXAI</p>
 
 <ul class="paper-list">
 {% assign sorted_papers = site.papers | sort: 'date' | reverse %}

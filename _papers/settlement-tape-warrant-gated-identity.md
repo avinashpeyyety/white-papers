@@ -5,7 +5,7 @@ date: 2026-09-18
 updated: 2026-09-20
 author: Avinash Peyyety
 version: "0.3"
-contributors: Grok Build
+contributors: SpaceXAI
 excerpt: >-
   A shared append-only tape can be the public proof layer for claims and
   settlement. It cannot be the system of record for institutional and personal

@@ -2,7 +2,7 @@
 
 A [GitHub Pages](https://pages.github.com/) site publishing technical white papers by **Avinash Peyyety**.
 
-Writing assistance: Composer 2.5, Moonshot Kimi 2.5, Grok Build.
+Writing assistance: SpaceXAI.
 
 **Live site:** [https://avinashpeyyety.github.io/white-papers/](https://avinashpeyyety.github.io/white-papers/)
 

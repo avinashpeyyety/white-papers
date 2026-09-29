@@ -4,7 +4,7 @@ slug: agent-harnesses-persistent-platform
 date: 2026-09-29
 author: Avinash Peyyety
 version: "0.1"
-contributors: Grok Build
+contributors: SpaceXAI
 excerpt: >-
   IDE-bound coding agents running in non-persistent VMs cap autonomy. This
   paper argues for a portfolio of model-native harnesses (Claude Code, Codex,

@@ -5,6 +5,8 @@ date: 2026-09-29
 author: Avinash Peyyety
 version: "0.1"
 contributors: SpaceXAI
+series: agentic
+series_order: 7
 excerpt: >-
   Coding agents confined to an IDE in non-persistent VMs have limited autonomy. This
   paper argues for a portfolio of model-native harnesses (Claude Code, Codex,

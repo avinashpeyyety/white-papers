@@ -5,6 +5,8 @@ date: 2026-09-29
 author: Avinash Peyyety
 version: "1.0"
 contributors: SpaceXAI
+series: agentic
+series_order: 8
 excerpt: >-
   Most enterprises don't need a private token factory. They need a few
   purpose-built intelligence pods that run continuous agents and open-weight

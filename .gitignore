@@ -15,3 +15,6 @@ node_modules/
 
 # Third-party paper PDFs. This repo is public; keep the shelf on disk only.
 arXiv/*.pdf
+
+# Private ML exercise sandbox (former ml-expeditions). Not part of the public site.
+ml-expeditions/

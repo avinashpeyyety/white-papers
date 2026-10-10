@@ -53,6 +53,10 @@ Pushes to `main` trigger the GitHub Actions workflow in `.github/workflows/pages
 
 `arXiv/` is the former `llm-papers` library: 29 open-access PDFs plus `README.md` (the index) and `NEXT.md`. Jekyll does not publish this directory. The PDFs are not committed, because this repository is public and the files are third-party papers. They stay in the working tree (OneDrive).
 
+## ML exercises
+
+`ml-expeditions/` is the former private exercise repo (sklearn notes, notebooks, small scripts). Jekyll does not publish it, and the files are not committed, because this repository is public and that repo was private. They stay in the working tree (OneDrive).
+
 ## License
 
 © 2026 Avinash Peyyety. All rights reserved.

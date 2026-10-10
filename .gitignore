@@ -12,3 +12,6 @@ Thumbs.db
 *~
 .env
 node_modules/
+
+# Third-party paper PDFs. This repo is public; keep the shelf on disk only.
+arXiv/*.pdf

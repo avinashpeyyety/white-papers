@@ -49,6 +49,10 @@ Open [http://localhost:4000/white-papers/](http://localhost:4000/white-papers/).
 
 Pushes to `main` trigger the GitHub Actions workflow in `.github/workflows/pages.yml`, which builds the Jekyll site and deploys to GitHub Pages.
 
+## arXiv shelf
+
+`arXiv/` is the former `llm-papers` library: 29 open-access PDFs plus `README.md` (the index) and `NEXT.md`. Jekyll does not publish this directory. The PDFs are not committed, because this repository is public and the files are third-party papers. They stay in the working tree (OneDrive).
+
 ## License
 
 © 2026 Avinash Peyyety. All rights reserved.

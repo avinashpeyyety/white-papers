@@ -53,6 +53,7 @@ Three shelves:
 | 09 | Gemini multimodal | 2023 | Multimodal stack reference |
 | 10 | Grok-4 model card | 2025 | xAI product reference |
 | 11 | AgentWorld / language world models | 2026 | Agent / world-model research |
+| 30 | Harness Learning (test-time harness adaptation, arXiv:2609.35738) | 2026 | Agent harness adaptation via learned proposer |
 
 ### Lab tags (quick)
 
@@ -62,7 +63,7 @@ Three shelves:
 | **ornith / local research** | 17, 21, 05 |
 | **DL foundations** | 22–29 |
 | **LLM foundations** | 01, 12–21, 02–04 |
-| **systems reference** | 05–11 |
+| **systems reference** | 05–11, 30 |
 
 ## Sources
 
@@ -74,4 +75,4 @@ See `NEXT.md` (Dropout, VGG, ViT, AlphaGo, etc.).
 
 ## Count
 
-**29** PDFs total (01–29).
+**30** PDFs total (01–30).
